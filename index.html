@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html  data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangpur Wholesale</title>
+
+    <!--Tailwind CSS links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="">
+    <div class="navbar text-color rounded-full ">
+        <div class="navbar lg:flex lg:justify-around lg:flex-row flex-row-reverse justify-between">
+            <div class=" hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 ">
+                    <li><a>Home</a></li>
+                    <li><a>About us</a></li>
+                    <li><a>Products</a></li>
+                    <li><a>All Items</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content -ml-24 mt-3 z-[1] p-2 shadow rounded-box w-40">
+                    <li><a>Home</a></li>
+                    <li>
+                        <a>About Us</a>
+                    </li>
+                    <li><a>Products</a></li>
+                    <li><a>All Items</a></li>
+                </ul>
+            </div>
+            <div>
+                <a class="btn btn-ghost text-xl">Rangpur<span class="text-orange-600">Wholesale</span></a>
+            </div>
+            <input type="text" placeholder="Type here" class="input w-full max-w-xs hidden lg:block rounded-3xl" />
+        </div>
+    </div>
+    <!-- carousel Section  -->
+    <section class="px-20 mt-10">
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full h-96">
+              <img
+                src="./images/carousel 01.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full  h-96">
+              <img
+                src="./images/a9c53f7c53937f4e06864ec76dfa2bb8.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full  h-96">
+              <img
+                src="./images/SourcingFromChina101The15-PartGuideforNewBuyers.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full  h-96">
+              <img
+                src="./images/electronic-products.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- Our Featured Products -->
+    <div class="card bg-base-100 w-96 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes"
+            class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Beauty & Cosmetics</h2>
+          <div class="card-actions">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+     <!-- Footer Section -->
+    <footer class="footer flex flex-col justify-center items-center mt-16 bg-neutral text-neutral-content">
+        <aside class="flex justify-center items-center gap-4 mt-12">
+          <img src="./images/logo.png" alt="">
+          <p class="text-3xl font-bold">Rangpur <span class="text-orange-600">Wholesale</span></p>
+        </aside> 
+        <nav class="flex flex-wrap justify-center items-center gap-8">
+            <a class="link text-sm link-hover">Home</a>
+            <a class="link text-sm link-hover">About Us</a>
+            <a class="link text-sm link-hover">Shop</a>
+            <a class="link text-sm link-hover">All Fruits</a>
+            <a class="link text-sm link-hover">Support</a>
+            <a class="link text-sm link-hover">My Account</a>
+          </nav>
+        <nav class="mb-8">
+          <div class="grid grid-flow-col gap-6">            
+            <a><i class="fa-brands fa-twitter fa-2xl" style="color: #fafafa;"></i></a>
+            <a><i class="fa-brands fa-facebook fa-2xl"></i></a>
+            <a><i class="fa-brands fa-youtube fa-2xl" style="color: #f9f8fc;"></i></i></a>
+            <a><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            <a><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
+            <a><i class="fa-brands fa-apple fa-2xl" style="color: #ffffff;"></i></a>            
+          </div>
+        </nav>
+      </footer>
+</body>
+</html>
